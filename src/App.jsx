@@ -5,6 +5,7 @@ import Programs from './assets/Components/Programs/Programs'
 import Title from './assets/Components/Title/Title'
 import About from './assets/Components/About/About'
 import Gallery from './assets/Components/Gallery/Gallery'
+import Testimonials from './assets/Components/Testimonials/Testimonials'
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <About/>
         <Title subTitle='GALLERY' title='Campus Photos' />
         <Gallery/>
+        <Title subTitle='TESTIMONIALS' title='What Students Say' />
+        <Testimonials/>
       </div>
     </div>
   )
